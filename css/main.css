@@ -1,0 +1,238 @@
+
+
+
+@media screen and (min-width: 521px) {
+	body {
+		width: 960px;
+		margin: 0 auto;
+		background-image:url("../images/cream_dust.png");
+	}
+
+.hobokenlogo {
+	font-family: copperplate;
+	font-size: 50px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.navbutton, .navbottom {
+	display: inline-block;
+	width: 9%;
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 14.5px 29px;
+   -webkit-border-radius: 11px;
+   -moz-border-radius: 11px;
+   border-radius: 11px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 24px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.navbutton:hover, .navbottom:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.navbutton:active, .navbottom:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+
+.navbutton a, .navbottom a{
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+
+.hobokenname {
+	text-align: center;
+
+}
+
+.slide-holder { 
+	position: relative;
+}
+
+.slide-holder .bxslider img { width: 100%; }
+
+.bxslider-custom-control {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	overflow: hidden;
+}
+
+.bxslider-custom-control .right-arrow,
+.bxslider-custom-control .left-arrow {
+	width: 50%;
+	height: 100%;
+	cursor: pointer;
+	float: left;
+}
+
+.bxslider-custom-control .right-arrow .arrow-content,
+.bxslider-custom-control .left-arrow .arrow-content {
+	display: none;
+}
+
+.bxslider-custom-control .right-arrow:hover .arrow-content,
+.bxslider-custom-control .left-arrow:hover .arrow-content {
+	display: block;
+}
+
+.slide-holder {
+	padding: 10px;
+}
+
+.hoboken {
+	font-size: 80px;
+}
+
+.corps {
+	font-style: italic;
+}
+
+.hoboken, .corps, .serving{
+	display: inline-block;
+}
+
+.serving {
+	font-family: cursive;
+	font-size: 40px;
+}
+
+.nav_buttons, #bottom_container ul {
+	padding: 10px 50px;
+}
+
+.navbutton, .navbottom {
+	text-align: center;
+}
+
+.body_copy h2 {
+	text-align: center;
+	text-transform: bold;
+	font-family: georgia, sans-serif;
+	font-size: xx-large;
+
+}
+
+.body_copy p {
+	font-family: georgia, sans-serif; 
+	font-size: 20px;
+	padding: 5px 0;
+	text-align: center;
+}
+
+.vehiclescontent {
+	display: none;
+}
+
+.vehicles_desktop_header h1 {
+	text-align: center;
+	font-family: georgia, sans-serif;
+	font-size: 22px;
+}
+
+.vehicles_desktop_header h2 {
+	text-align: center;
+	font-family: georgia, sans-serif;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+.slide-holder h1 {
+	font-family: copperplate;
+	font-size: x-large;
+}
+
+.general_info p {
+	padding: 5px;
+	font-family: georgia, sans-serif;
+	font-size: 18px;
+}
+
+.training_calendar {
+	padding: 10px;
+}
+
+.google_map {
+	margin: 0 auto;
+	border: 2px solid black;
+	width: 50%;
+	text-align: center;
+	font-family: georgia, sans-serif
+}
+
+.officers > div{
+	overflow: hidden;
+	border: 2px solid black;
+	margin: 5px;
+}
+
+.officers div > img{
+	float: left;
+	width: 20%;
+	margin-right: 10px;
+
+}
+
+
+.officers p {
+	font-family: georgia, sans-serif;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+
+.officers h2 {
+	font-family: georgia, sans-serif;
+	font-size: 20px;
+	margin: 10px;
+}
+
+.molta {
+	overflow: hidden;
+}
+
+.social_media_links {
+	padding: 10px
+}
+
+.bullet_points {
+	list-style-type: disc;
+}
+
+.bullet_points h1 {
+	font-size: 25px;
+	font-family: copperplate;
+}
+
+.bullet_points li {
+	font-family: georgia, sans-serif;
+	margin-left: 230px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-size: 20px;
+
+
+}
+
+
+}
+
+
+

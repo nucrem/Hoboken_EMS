@@ -1,0 +1,214 @@
+
+
+@media screen and (max-width: 520px) {
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+
+body {
+	width: 420px;
+	margin: 0 auto;
+}
+
+.hobokenlogo {
+	font-family: copperplate;
+	font-size: 50px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+.serving {
+	display: none;
+}
+
+.navbutton, .navbottom {
+	border: 1px solid black;
+	width: 100%;
+	margin: 10px 0 0 0;
+	padding: 10px;
+	background-color: #d6d6d6;
+	text-align: center;
+	font-color: white;
+	font-family: verdana, sans-serif;
+	text-transform: uppercase;
+}
+
+.navbutton a,  .navbottom a{
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+
+.ambulance_photo img {
+	margin: 5px 0;
+	width: 100%;
+
+}
+
+.body_copy h2 {
+	text-align: center;
+	font-weight: bold;
+	font-family: copperplate;
+}
+
+.body_copy p {
+	margin: 5px 0;
+	font-family: verdana, sans-serif;
+
+}
+
+#bottom_container {
+	padding-top: 15px;
+	width: 100%;
+}
+
+
+
+.vehiclescontent {
+	overflow: hidden;
+	margin-top: 10px ;
+}
+
+.vehiclescontent p {
+	font-family: verdana, sans-serif;
+
+}
+
+.vehiclescontent h2{
+	font-family: copperplate;
+	text-transform: uppercase;
+	font-size: xx-large;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.rig1, .rig2, .rig3 {
+	margin: 10px 0;
+}
+
+.rig1 img {
+	float:left;
+	width: 50%;
+}
+
+.rig1 p {
+	padding-left: 220px;
+	padding-top: 15px;
+}
+
+.rig2 img {
+	float: right;
+	width: 50%;
+	padding-top: 30px;
+}
+
+.rig2 p {
+	padding-top: 45px;
+	padding-right: 220px;
+	padding-left: 7px;
+}
+
+
+.rig3 img {
+	float:left;
+	width: 50%;
+	padding-top: 12px;
+}
+
+.rig3 p {
+	padding-top: 28px;
+	padding-left: 220px;
+}
+
+.general_info p {
+	margin: 5px 0;
+	font-family: verdana, sans-serif;
+}
+
+.officers .position {
+	font-size: medium;
+	font-weight: bold;
+	font-family: verdana, sans-serif;
+	text-align: center;
+}
+
+.officers .person {
+	text-align: center;
+	margin: 5px;
+	margin-bottom: 10px;
+	font-family: verdana, sans-serif;
+}
+
+.officers h2 {
+	margin: 10px;
+	font-size: xx-large;
+	text-align: center;
+	font-family: copperplate;
+
+}
+
+.slide-holder {
+	display: none;
+}
+
+.charlie {
+	overflow: hidden;
+}
+
+.charlie img {
+	float:left;
+	width: 50%;
+	margin-right: 10px;
+}
+
+.charlie p {
+	margin-top: 10px;
+}
+
+.Sierra {
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.Sierra img {
+	float:right;
+	width: 50%;
+}
+
+.Sierra p {
+	margin-top: 30px;
+}
+
+.training_calendar_google {
+	width: 100%;
+}
+
+.delta {
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.delta img {
+	float: left;
+	width: 50%;
+}
+
+.delta p {
+	margin-top: 10px;
+}
+
+.officers > img {
+	width: 100%;
+}
+
+
+}
+
+
